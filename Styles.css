@@ -1,0 +1,69 @@
+/* Styles pour Jules Travel */
+
+/* Style de la barre de navigation */
+.custom-navbar {
+    background: blueviolet
+    color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+/* Styles de la section héros */
+.hero {
+    background-image: url('voyage_bg.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Styles pour Reservations */
+.card img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-text {
+    color: #333;
+}
+
+/* Styles pour la section "Circuit" */
+#about img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Styles du formulaire de contact */
+form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Styles du pied de page */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
