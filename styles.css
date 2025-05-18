@@ -1,0 +1,61 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Section Héros */
+.hero {
+    color: #100202;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+/* Section Menu */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    color: #555;
+}
+
+/* Section À propos de nous */
+#about img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Section Contact */
+form .form-control {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+button.btn-primary {
+    background-color: #4f9fd9;
+    border-color: #4f9fd9;
+    border-radius: 8px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
